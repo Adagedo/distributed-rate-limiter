@@ -1,3 +1,10 @@
 spring:
   application:
     name: limiter-application
+
+  config:
+    profile:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      uri: http://localhost:8888
