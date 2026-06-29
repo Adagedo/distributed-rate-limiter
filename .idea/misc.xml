@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/limiter-application/pom.xml" />
         <option value="$PROJECT_DIR$/limiter-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
       </list>
     </option>
   </component>
