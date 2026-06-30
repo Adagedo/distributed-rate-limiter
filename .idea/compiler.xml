@@ -6,19 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
+        <module name="limit-proto" />
         <module name="limiter-config-server" />
+      </profile>
+      <profile name="Annotation profile for rate-limiter-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="rate-limiter-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="limiter-application" target="21" />
+      <module name="rate-limit-service" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="limit-proto" options="-parameters" />
       <module name="limiter-application" options="-parameters" />
       <module name="limiter-config-server" options="-parameters" />
+      <module name="rate-limit-service" options="-parameters" />
+      <module name="rate-limiter-service" options="-parameters" />
     </option>
   </component>
 </project>
