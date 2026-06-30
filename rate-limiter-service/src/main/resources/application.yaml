@@ -1,13 +1,13 @@
 spring:
   application:
-    name: rate-limiter-service
+    name: rate-limiter-rules
 
   config:
     import: optional:configserver:http://localhost:8543
+
   cloud:
     config:
       uri: http://localhost:8543
-
 
 server:
   port: 9090
