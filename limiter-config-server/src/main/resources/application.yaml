@@ -8,4 +8,4 @@ spring:
           uri: file:///C:/Users/User/Desktop/git-local-config-repo # rate limiters rules are stored here
 
 server:
-  port:
+  port: 8543
