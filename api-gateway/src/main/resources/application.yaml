@@ -4,8 +4,8 @@ spring:
 
   config:
     profile: dev
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:http://localhost:8543
 
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8543
