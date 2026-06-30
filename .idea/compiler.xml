@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="limiter-config-server" />
+        <module name="limits-proto" />
       </profile>
       <profile name="Annotation profile for rate-limiter-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -32,6 +33,7 @@
       <module name="limit-proto" options="-parameters" />
       <module name="limiter-application" options="-parameters" />
       <module name="limiter-config-server" options="-parameters" />
+      <module name="limits-proto" options="" />
       <module name="rate-limit-service" options="-parameters" />
       <module name="rate-limiter-service" options="-parameters" />
     </option>

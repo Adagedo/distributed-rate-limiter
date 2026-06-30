@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/rate-limit-service/pom.xml" />
         <option value="$PROJECT_DIR$/rate-limiter-service/pom.xml" />
         <option value="$PROJECT_DIR$/limit-proto/pom.xml" />
+        <option value="$PROJECT_DIR$/limits-proto/pom.xml" />
       </list>
     </option>
   </component>
