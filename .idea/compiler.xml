@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="limiter-config-server" />
-        <module name="limits-proto" />
       </profile>
       <profile name="Annotation profile for rate-limiter-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -23,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="limit-proto" target="21" />
       <module name="limiter-application" target="21" />
+      <module name="limits-proto" target="1.8" />
       <module name="rate-limit-service" target="21" />
     </bytecodeTargetLevel>
   </component>

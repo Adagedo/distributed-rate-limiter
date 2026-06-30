@@ -8,6 +8,6 @@ spring:
     config:
       uri: http://localhost:8543
 
-grpc:
-  server:
-    port: 9090
+
+server:
+  port: 9090
