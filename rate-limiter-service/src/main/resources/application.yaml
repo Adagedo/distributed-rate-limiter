@@ -1,3 +1,13 @@
 spring:
   application:
     name: rate-limiter-service
+
+  config:
+    import: optional:configserver:http://localhost:8543
+  cloud:
+    config:
+      uri: http://localhost:8543
+
+grpc:
+  server:
+    port: 9090
