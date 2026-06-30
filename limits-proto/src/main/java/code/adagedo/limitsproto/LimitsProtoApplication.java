@@ -1,13 +1,13 @@
-package code.adagedo.limitproto;
+package code.adagedo.limitsproto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LimitProtoApplication {
+public class LimitsProtoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LimitProtoApplication.class, args);
+        SpringApplication.run(LimitsProtoApplication.class, args);
     }
 
 }

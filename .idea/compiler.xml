@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="limit-proto" />
         <module name="limiter-config-server" />
       </profile>
       <profile name="Annotation profile for rate-limiter-service" enabled="true">
@@ -18,9 +17,11 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="rate-limiter-service" />
+        <module name="api-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="limit-proto" target="21" />
       <module name="limiter-application" target="21" />
       <module name="rate-limit-service" target="21" />
     </bytecodeTargetLevel>
