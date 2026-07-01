@@ -1,9 +1,3 @@
 spring:
   application:
     name: api-gateway
-
-  grpc:
-    client:
-      channel:
-        rate-limiter-server:
-          address: static://localhost:9090

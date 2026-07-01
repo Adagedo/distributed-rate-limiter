@@ -1,10 +1,10 @@
-package code.adagedo.ratelimiterservice;
+package code.adagedo.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RateLimiterServiceApplicationTests {
+class ConfigServerApplicationTests {
 
     @Test
     void contextLoads() {
