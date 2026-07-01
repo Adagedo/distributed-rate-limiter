@@ -1,3 +1,33 @@
 spring:
   application:
     name: api-gateway
+
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+#    gateway:
+#      server:
+#        webflux:
+#          routes:
+#            - id: service-one
+#              uri: lb://SERVICE-ONE # dynamic router the service one should be the name of the service registered with eureka
+#              predicates:
+#                - Path=/api/v1/posts/**
+#            - id: service-two
+#              uri: lb://SERVICE-TWO
+#              predicates:
+#                - Path=/api/v1/orders/**
+
+    config:
+      uri: http://localhost:8888 # config service uri
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+
+
+server:
+  port: 8765

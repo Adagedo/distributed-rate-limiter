@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: discovery-service
+eureka:
+  server:
+    enable-self-preservation: true
+    # Only trigger safety mode if more than 50% of your nodes vanish at once
+    renewal-percent-threshold: 0.50
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+server:
+  port: 8761

@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/limit-proto/pom.xml" />
         <option value="$PROJECT_DIR$/limits-proto/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-one/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-two/pom.xml" />
       </list>
     </option>
   </component>

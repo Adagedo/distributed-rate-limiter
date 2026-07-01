@@ -1,3 +1,12 @@
 spring:
   application:
     name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Users/User/Desktop/git-local-config-repo # connection the git repo file that hold our configurations
+
+server:
+  port: 8888
